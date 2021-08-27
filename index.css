@@ -71,7 +71,7 @@ body {
     margin-left: 1rem;
 }
 
-@media screen and (min-width:360px) and (max-width:768px) {
+@media screen and (min-width:360px) and (max-width:767px) {
     * {
         margin: 0;
         padding: 0;
@@ -124,6 +124,78 @@ body {
     .box {
         height: 50px;
         width: 300px;
+        border: 2px solid rgb(235, 73, 73);
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px grey;
+        margin: 10px;
+    }
+    .trip {
+        font-size: 1rem;
+        color: grey;
+        text-decoration: none;
+    }
+    .subhead {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        position: absolute;
+        display: flex;
+        left: 0%;
+        right: 0%;
+        align-items: center;
+        flex-direction: column;
+        height: 70%;
+        width: 50%;
+        overflow: hidden;
+        border: 2px solid red;
+    }
+    .first {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        width: 100%;
+        border: 2px solid red;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .tasks {
+        font-weight: bolder;
+        color: rgb(22, 21, 21);
+    }
+    .lists {
+        box-sizing: border-box;
+        color: grey;
+        padding-right: 30px;
+    }
+    .fa,
+    .fas {
+        color: red;
+        margin-top: 3px;
+        margin-left: 0px;
+        font-size: 2rem;
+    }
+    .second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        border: 2px solid red;
+    }
+    .box {
+        height: 50px;
+        width: 100%;
         border: 2px solid rgb(235, 73, 73);
         border-radius: 10px;
         box-shadow: 5px 5px 10px grey;
