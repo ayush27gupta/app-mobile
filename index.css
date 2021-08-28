@@ -93,6 +93,15 @@ body {
         width: 90vw;
         height: 85vh;
     }
+    .first {
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .heading {
+        padding-right: 2rem;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
