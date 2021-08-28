@@ -1,26 +1,30 @@
 body {
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    height: 90vh;
+    width: 30vw;
+    margin: auto;
+    padding: auto;
+    margin-top: 2rem;
 }
 
 .container {
+    box-sizing: border-box;
     position: absolute;
-    left: 35%;
-    right: 35%;
-    padding: 50px;
-    height: 80%;
-    width: 20%;
-    overflow: hidden;
+    margin: auto;
+    padding: auto;
+    width: 30vw;
+    height: 90vh;
 }
 
 .first {
+    box-sizing: border-box;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
 .heading {
-    font-size: 40px;
+    font-size: 3rem;
     margin-right: 1rem;
 }
 
@@ -36,29 +40,30 @@ body {
 .fa,
 .fas {
     color: red;
-    margin-top: 6px;
-    margin-left: 5px;
-    font-size: 2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    font-size: 3rem;
 }
 
 .second {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 2rem;
     width: 100%;
     height: auto;
     position: relative;
 }
 
 .box {
-    height: 50px;
-    width: 300px;
+    height: 3rem;
+    width: 20rem;
     border: 2px solid rgb(235, 73, 73);
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
-    margin: 10px;
+    margin: 1rem;
 }
 
 .trip {
@@ -71,143 +76,49 @@ body {
     margin-left: 1rem;
 }
 
-@media screen and (min-width:360px) and (max-width:767px) {
-    * {
-        margin: 0;
-        padding: 0;
+@media screen and (min-width:0px) and (max-width:767px) {
+    body {
+        overflow: hidden;
+        height: 85vh;
+        width: 90vw;
+        margin: auto;
+        padding: auto;
+        margin-top: 2rem;
     }
     .container {
-        position: absolute;
-        display: flex;
-        left: 0%;
-        right: 0%;
-        align-items: center;
-        flex-direction: column;
-        height: 70%;
-        width: 70%;
-        overflow: hidden;
-    }
-    .first {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        width: 100%;
-    }
-    .heading {
-        font-size: 2rem;
-    }
-    .tasks {
-        font-weight: bolder;
-        color: rgb(22, 21, 21);
-    }
-    .lists {
         box-sizing: border-box;
-        color: grey;
-        padding-right: 30px;
-    }
-    .fa,
-    .fas {
-        color: red;
-        margin-top: 3px;
-        margin-left: 0px;
-        font-size: 2rem;
-    }
-    .second {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 30px;
-        width: 100%;
-        height: auto;
-    }
-    .box {
-        height: 50px;
-        width: 300px;
-        border: 2px solid rgb(235, 73, 73);
-        border-radius: 10px;
-        box-shadow: 5px 5px 10px grey;
-        margin: 10px;
-    }
-    .trip {
-        font-size: 1rem;
-        color: grey;
-        text-decoration: none;
-    }
-    .subhead {
-        margin-left: 1rem;
-        margin-top: 1rem;
+        position: absolute;
+        margin: auto;
+        padding: auto;
+        width: 90vw;
+        height: 85vh;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
-    * {
-        margin: 0;
-        padding: 0;
+    body {
+        overflow: hidden;
+        height: 90vh;
+        width: 90vw;
+        margin: auto;
+        padding: auto;
+        margin-top: 2rem;
     }
     .container {
+        box-sizing: border-box;
         position: absolute;
-        display: flex;
-        left: 0%;
-        right: 0%;
-        align-items: center;
-        flex-direction: column;
-        height: 70%;
-        width: 50%;
-        overflow: hidden;
-        border: 2px solid red;
+        margin: auto;
+        padding: auto;
+        width: 90vw;
+        height: 90vh;
     }
     .first {
+        box-sizing: border-box;
         display: flex;
-        justify-content: center;
-        justify-content: space-between;
         width: 100%;
-        border: 2px solid red;
+        justify-content: center;
     }
     .heading {
-        font-size: 2rem;
-    }
-    .tasks {
-        font-weight: bolder;
-        color: rgb(22, 21, 21);
-    }
-    .lists {
-        box-sizing: border-box;
-        color: grey;
-        padding-right: 30px;
-    }
-    .fa,
-    .fas {
-        color: red;
-        margin-top: 3px;
-        margin-left: 0px;
-        font-size: 2rem;
-    }
-    .second {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 30px;
-        width: 100%;
-        height: auto;
-        border: 2px solid red;
-    }
-    .box {
-        height: 50px;
-        width: 100%;
-        border: 2px solid rgb(235, 73, 73);
-        border-radius: 10px;
-        box-shadow: 5px 5px 10px grey;
-        margin: 10px;
-    }
-    .trip {
-        font-size: 1rem;
-        color: grey;
-        text-decoration: none;
-    }
-    .subhead {
-        margin-left: 1rem;
-        margin-top: 1rem;
+        padding-right: 2rem;
     }
 }
