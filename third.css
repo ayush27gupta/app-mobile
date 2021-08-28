@@ -95,6 +95,8 @@ body {
         bottom: 0%;
         background-image: url(1.png);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         filter: blur(8px);
         -webkit-filter: blur(8px);
         display: flex;
